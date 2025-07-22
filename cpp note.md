@@ -1,6 +1,6 @@
 > {*.c, *.h} -预处理-> *.i -编译-> *.s -汇编-> *.o -链接-> exe 
 >
-> ![image-20250305124209571](D:\data\Typora_imgs\cpp note\image-20250305124209571.png)
+> ![image-20250305124209571](cpp note/image-20250305124209571.png)
 >
 > 预处理
 > gcc -E main.c -o main.i
@@ -93,7 +93,7 @@ info variables
 
 ### 内存管理
 
-![image-20250629181549788](D:\data\Typora_imgs\cpp note\image-20250629181549788.png)
+![image-20250629181549788](./cpp note/image-20250629181549788.png)
 
 * 编译后运行前
   * 代码段：存放代码
@@ -107,11 +107,11 @@ info variables
 
 > 无虚继承时：
 >
-> ![image-20250705132034211](D:\data\Typora_imgs\cpp note\image-20250705132034211.png)
+> ![image-20250705132034211](./cpp note/image-20250705132034211.png)
 >
 > 有虚继承时：
 >
-> ![image-20250705133908340](D:\data\Typora_imgs\cpp note\image-20250705133908340.png)
+> ![image-20250705133908340](./cpp note/image-20250705133908340.png)
 
 
 
@@ -926,7 +926,7 @@ class vector{
 5. 输出迭代器：写
 6. 流迭代器：把输入/输出流作为**容器**看待（缓冲区的概念）
 
-![image-20250616195045498](D:\data\Typora_imgs\cpp note\image-20250616195045498.png)
+![image-20250616195045498](./cpp note/image-20250616195045498.png)
 
 
 
@@ -1236,7 +1236,7 @@ atomic<int> x(0);
 condition_variable
 ```
 
-![image-20250623213349776](D:\data\Typora_imgs\cpp note\image-20250623213349776.png)
+![image-20250623213349776](./cpp note/image-20250623213349776.png)
 
 ## 11
 
