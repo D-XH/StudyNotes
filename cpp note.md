@@ -1,6 +1,6 @@
 > {*.c, *.h} -预处理-> *.i -编译-> *.s -汇编-> *.o -链接-> exe 
 >
-> ![image-20250305124209571](cpp note/image-20250305124209571.png)
+> ![](cpp note/image-20250305124209571.png)
 >
 > 预处理
 > gcc -E main.c -o main.i
@@ -93,7 +93,7 @@ info variables
 
 ### 内存管理
 
-![image-20250629181549788](./cpp note/image-20250629181549788.png)
+![image-20250629181549788](cpp note/image-20250629181549788.png)
 
 * 编译后运行前
   * 代码段：存放代码
